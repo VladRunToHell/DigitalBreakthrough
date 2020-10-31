@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
+
+    <head>
+        <title> Choice </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    </head>
+
+    <body>
+        <h1>Выберите район:</h1>
+        <p><a href="{% url 'index' %}">Выйти</a> </p>
+        <p><a href="{% url 'sovetsky' %}">Советский район</a></p>
+        <p><a href="{% url 'pervomaysky' %}">Первомайский район</a></p>
+        <p><a href="{% url 'pervorechensky' %}">Первореченский район</a></p>
+        <p><a href="{% url 'leninsky' %}">Ленинский район</a></p>
+        <p><a href="{% url 'frunzensky' %}">Фрунзенский район</a></p>
+    </body>
+
+</html>
